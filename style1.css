@@ -1,0 +1,64 @@
+body{
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu{
+    margin-bottom: 5rem;
+    background-color: transparent !important;
+    
+}
+.menu a{
+    color:  antiquewhite !important;
+}
+
+
+.furniture{
+    padding-top: 15rem;
+    height: 40rem;
+    background: linear-gradient(to right, rgb(0, 0, 0,0.6), rgb(0, 0, 0, 0.6)   ),  url("image/background.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite !important;
+    
+
+
+}
+hr{
+    height: 5px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(13, 117, 13), rgb(201, 201, 5)   );
+    width: 100%;
+    margin: auto;
+}
+
+.button-details{    
+    border-radius: 5px;
+    box-shadow: 1rem;
+    background: linear-gradient(to right, rgb(13, 117, 13), rgb(201, 201, 5)   );
+
+}
+.button-details a:hover{    
+    border-radius: 5px;
+    box-shadow: 1rem;
+    background: linear-gradient(to right, rgb(13, 80, 13), rgb(180, 180, 5)   );
+
+}
+
+.card{
+    height: 25rem;
+    background: rgb(230, 228, 228);
+}
+.card-body p{
+
+    font-size: 13px;
+}
+.card-header{
+    padding-top: 1rem;
+    border-bottom: none;
+    height: 6rem;
+}
+
